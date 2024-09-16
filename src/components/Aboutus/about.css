@@ -1,0 +1,88 @@
+
+
+
+
+.aboutus-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutus-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/18/39/49/1000_F_218394966_Nrv1qTeQxsZgJ5WaHnZHqd7vd2Xvxr8A.jpg");
+    height:100vh;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+    justify-content: flex-start;
+}
+
+.aboutus-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:500px;
+}
+
+
+.aboutus-content-heading {
+    font-size: 50px;
+}
+
+.aboutus-prescription {
+    font-size: 20px;
+}
+
+.aboutus-doctor-btn {
+    background-color:white ;
+    border-radius: 10px 10px 0px 10px ;
+    border:none;
+    height: 50px;
+    width: 150px;
+}
+
+.aboutus-corevalues-btn {
+    background-color: transparent;
+    border-radius: 10px 10px 0px 10px ;
+    height: 50px;
+    width: 150px;
+    margin-left:20px;
+}
+
+.aboutus-card-content {
+    display: flex;
+    flex-direction: row;
+    padding:50px;
+    background-color: aliceblue;
+}
+
+.aboutus-card {
+    width:400px;
+    height:200px;
+    border:1px solid grey;
+}
+/* 
+.card-body {
+    
+} */
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutus-card:hover .card-link{
+    color: rgb(19,197,221);
+}
+
+
+.aboutus-card:hover .card-body {
+    border-top:5px solid rgb(19,197,221);
+}
+
+.aboutus-card:hover .card-body {
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+}

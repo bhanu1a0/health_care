@@ -1,0 +1,53 @@
+
+/* .header-poistion {
+    position: sticky;
+} */
+
+/* doctorstimetable  */
+
+.doctorstimetable-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-top: 130px;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/18/39/49/1000_F_218394966_Nrv1qTeQxsZgJ5WaHnZHqd7vd2Xvxr8A.jpg");
+    height:80vh;
+    width: 100vw;
+    background-size: cover;
+ 
+}
+
+.image-container {
+    background-color: transparent;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    background-size: cover;
+}
+
+.timings-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    width:100vw;
+    /* top:100vh; */
+}
+
+.doctors-time-heading {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.option-clinic {
+    width:150px;
+}
+
+/* .footer-poistion {
+    position: relative;
+} */

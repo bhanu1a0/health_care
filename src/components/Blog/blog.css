@@ -1,0 +1,105 @@
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1907543080/display_1500/stock-photo-laptop-keyboard-and-stethoscope-on-blue-background-online-medicine-doctor-online-consultation-1907543080.jpg");
+    height:80vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.blog-image-container {
+    background-color:transparent;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    background-size: cover;
+}
+
+.blogclinic-container {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.blog-clinic-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: white;
+    width:350px;
+    margin:10px 10px 10px 80px;
+    /* margin: 10px; */
+    padding: 30px;
+}
+
+.blog-clinic-card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: white;
+    width:350px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.blog-clinic-card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: white;
+    width:350px;
+    margin-right: 60px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.blog-card-heading {
+    font-size: 25px;
+}
+
+.blog-card-image {
+    margin-top: -70px;
+    height: 200px;
+    width:280px;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.blog-readmore-btn {
+    padding: 10px;
+    border-radius:10px 10px 10px 0px;
+    margin-top: 20px;
+}
+
+.blog-readmore-btn-1 {
+    padding: 10px;
+    border-radius:10px 10px 10px 0px;
+    margin-top: 75px;
+}
+
+.blog-topic {
+    padding-top: 20px;
+}
+
+.blog-topic-description {
+    font-size: 15px;
+    color:rgb(29, 218, 222);
+    margin-right: 10px;
+}
+
+.blog-topic-explanation {
+    padding: 10px;
+}

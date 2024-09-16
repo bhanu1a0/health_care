@@ -1,0 +1,85 @@
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading {
+    padding: 20px;
+} 
+
+.location-map {
+    height:500px;
+    width:900px;
+    margin: 50px;
+}
+
+.contact-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:50px;
+    /* width:100%; */
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 10px;
+    width:800px;
+    height:600px;
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: white; */
+    margin:50px;
+}
+
+.contact-input {
+    margin: 20px;
+    padding: 10px;
+    width:300px;
+    border-radius: 10px 0px 10px 10px;
+    background-color:rgb(201, 242, 249) ;
+    border:none;
+}
+
+textarea {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px 0px 10px 10px;
+    background-color:rgb(201, 242, 249) ;
+    border:none;
+    border:1px solid rgb(201, 242, 249) ;
+}
+
+.submit-btn {
+    width: 630px;
+    background-color:  rgb(40,59,106);
+    margin-left: 5px;
+    color: white;
+    height: 50px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+/* 
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/18/39/49/1000_F_218394966_Nrv1qTeQxsZgJ5WaHnZHqd7vd2Xvxr8A.jpg");
+    background-color: rgb(89, 165, 178);
+    width:400px;
+    margin:70px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+} */

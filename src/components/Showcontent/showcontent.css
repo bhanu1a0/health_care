@@ -1,0 +1,88 @@
+
+
+
+.health-container-2 {
+    /* display: flex; */
+    /* flex-direction: row; */
+    position: relative;
+  
+}
+
+/* .carousel {
+    position: relative;
+    z-index: 0;
+} */
+
+
+.middle-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+    /* position: absolute; */
+    /* top:110vh; */
+    /* z-index: 1; */
+    /* margin-left:150px; */
+    /* margin-right:150px; */
+}
+
+.details-card-1 {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(19,197,221) ;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 0px 0px 1px;
+    width: 250px;
+    height:300px;
+}
+
+.details-card-2 {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(67,91,161) ;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height:300px;
+}
+
+.viewtimetable-btn {
+    height:50px;
+    width:150px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.details-card-3 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(32, 171, 198) ;
+    background-color:rgb(53,79,142) ;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height:300px;
+}
+
+.details-card-4 {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(40,59,106) ;
+    color: white;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    width: 250px;
+    height:300px;
+}
+
+.card-hed {
+    font-size: 30px;
+}
+
+.care-location {
+    height: 60px;
+    width: 170px;
+}

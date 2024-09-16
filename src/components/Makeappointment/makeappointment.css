@@ -1,0 +1,112 @@
+
+.makeappointment-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-content {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/18/39/49/1000_F_218394966_Nrv1qTeQxsZgJ5WaHnZHqd7vd2Xvxr8A.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-color: rgba(27,199,222,0.1);
+    color: white;
+    padding: 40px;
+}
+
+.appointment-content-heading {
+    font-size: 50px;
+}
+
+.appointment-prescription {
+    font-size: 20px;
+}
+
+.appointment-more-btn {
+    background-color:white ;
+    border-radius: 10px 10px 0px 10px ;
+    border:none;
+    height: 50px;
+    width: 150px;
+}
+
+.appointment-make-btn {
+    background-color:white ;
+    border-radius: 10px 10px 0px 10px ;
+    border:none;
+    height: 50px;
+    width: 150px;
+}
+
+.appointment-help-btn {
+    background-color: transparent;
+    border-radius: 10px 10px 0px 10px ;
+    height: 50px;
+    width: 150px;
+    margin-left:20px;
+}
+
+.appointment-container {
+    background-color:rgb(27,196,219);
+    display: flex;
+    flex-direction: row;
+    padding:80px;
+    margin:35px;
+    border-radius: 10px;
+}
+
+.appointment-content-1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    width:800px;
+   
+}
+
+.appointment-form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    border-radius: 10px;
+}
+
+.select-date {
+    padding: 10px;
+}
+
+.appointment-input {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px 0px 10px 10px;
+    background-color:rgb(201, 242, 249) ;
+    border:none;
+}
+
+.clinic-select-option {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px 0px 10px 10px;
+    background-color:rgb(201, 242, 249) ;
+    border:none;
+}
+
+.doctor-select-option {
+    margin: 20px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 10px 0px 10px 10px;
+    background-color:rgb(201, 242, 249) ;
+    border:none;
+}
+
+
+.appointment-submit-btn {
+    background-color:rgb(40,59,106);
+    border-radius: 10px 10px 0px 10px ;
+    border:none;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+
+
